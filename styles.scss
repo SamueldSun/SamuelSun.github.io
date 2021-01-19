@@ -1,0 +1,143 @@
+/* General */
+
+body{
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    border: thin solid #eee;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0px;
+}
+
+ul {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+// Text Formatting
+.bold{
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+
+.box {
+    overflow: hidden;
+    background-color: inherit;
+    padding: 0;
+    &_h1 {
+        padding: 5px 15px;
+        border-radius: 10px;
+        display: block;
+        border: thin solid #eee;
+        width: fit-content;
+        text-align: center;
+    }
+}
+  
+// Navbar
+.topnav{
+    overflow: hidden;
+    background-color: inherit;
+    &_a {
+        float: right;
+        display: block;
+        color: rgb(100, 100, 100);
+        text-align: center;
+        padding: 7px;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+            border-radius: 30px;
+            background-color: #eee;
+        }
+        &:active {
+            background-color: rgb(237, 125, 49);
+            color: white;
+        }
+    }
+}
+
+// PDF
+.pdf {
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: inherit;
+
+    &_preview {
+        display: block;
+        margin: auto;
+        border: thin solid #eee;
+        display: flex;
+        width: 60%;
+        min-height: 900px;
+    }
+    &_download {
+        display: block;
+        width: 120px;
+        color: rgb(100, 100, 100);
+        padding: 7px;
+        text-decoration: none;
+        transition: 0.3s;
+        border: thin solid #aaa;
+        border-radius: 5px;
+
+        &:hover {
+            border-radius: 10px;
+            background-color: #eee;
+        }
+        &:active {
+            background-color: rgb(237, 125, 49);
+            color: white;
+        }
+    }
+}
+
+// Cards
+.card {
+    margin: auto;
+    border: thin solid #eee;
+    padding: 1%;
+    max-width: 750px;
+    display: flex;
+
+    &_image {
+        width: 15vw;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+    &:hover {
+        border:thin solid #ccc;
+    }
+    &_text {
+        flex: 1 1 auto;
+    }
+    &_slim {
+        max-width: 500px;
+    }
+}
+  
+// Footer
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}

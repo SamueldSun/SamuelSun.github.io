@@ -1,0 +1,160 @@
+/* General */
+body {
+  background-color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  border: thin solid #eee;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0px;
+}
+
+ul {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.box {
+  overflow: hidden;
+  background-color: inherit;
+  padding: 0;
+}
+
+.box_h1 {
+  padding: 5px 15px;
+  border-radius: 10px;
+  display: block;
+  border: thin solid #eee;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.topnav_a {
+  float: right;
+  display: block;
+  color: #646464;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.topnav_a:hover {
+  border-radius: 30px;
+  background-color: #eee;
+}
+
+.topnav_a:active {
+  background-color: #ed7d31;
+  color: white;
+}
+
+.pdf {
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.pdf_preview {
+  display: block;
+  margin: auto;
+  border: thin solid #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  min-height: 900px;
+}
+
+.pdf_download {
+  display: block;
+  width: 120px;
+  color: #646464;
+  padding: 7px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: thin solid #aaa;
+  border-radius: 5px;
+}
+
+.pdf_download:hover {
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.pdf_download:active {
+  background-color: #ed7d31;
+  color: white;
+}
+
+.card {
+  margin: auto;
+  border: thin solid #eee;
+  padding: 1%;
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card_image {
+  width: 15vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.card:hover {
+  border: thin solid #ccc;
+}
+
+.card_text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.card_slim {
+  max-width: 500px;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+/*# sourceMappingURL=styles.css.map */
