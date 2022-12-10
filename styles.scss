@@ -1,7 +1,7 @@
 /* General */
 
 body{
-    background-color: white;
+    background-color: rgb(200, 200, 200);
     font-family: 'Nunito', sans-serif;
 }
 
@@ -30,9 +30,13 @@ ul {
     padding-right: 15%;
 }
 
+span {
+
+}
+
 // Text Formatting
 .bold{
-    font-weight: 700;
+    font-weight: 750;
 }
 .center{
     text-align: center;
@@ -51,28 +55,62 @@ ul {
         text-align: center;
     }
 }
-  
-// Navbar
-.topnav{
-    overflow: hidden;
+
+// Body
+.mainBodyBox {
+    background-color: white;
+    border-radius: 25px;
+    margin: 1% auto;
+    width: 75%;
+}
+
+.text_cap {
     background-color: inherit;
-    &_a {
-        float: right;
-        display: block;
-        color: rgb(100, 100, 100);
-        text-align: center;
-        padding: 7px;
-        text-decoration: none;
-        transition: 0.3s;
-        &:hover {
-            border-radius: 30px;
-            background-color: #eee;
-        }
-        &:active {
-            background-color: rgb(237, 125, 49);
-            color: white;
-        }
+    &_header {
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
+    &_footer {
+        padding-bottom: 5%;
+    }
+}
+
+// Navbar
+.topNavName {
+    float: left;
+    display: inline;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.topNavLinks {
+    float: right;
+    display: inline;
+    margin: 0 0.2%;
+    padding: 0.5%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    &:hover {    
+        background-color: #eee;
+    }
+    &:active {
+        background-color: rgb(237, 125, 49);
+        color: white;
+        
+    }
+}
+
+.topNav {
+    margin: 1% auto;
+    width: 75%;
+
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border:thin solid #ccc;
 }
 
 // PDF
@@ -137,7 +175,10 @@ ul {
   
 // Footer
 .footer {
+    background-color: white;
+    border-radius: 25px;
+    margin: 1% auto;
+    width: 25%;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    padding: 1px;
 }
