@@ -9,19 +9,34 @@ div {
   padding-right: 10px;
 }
 
+h1, h2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0px;
+}
+
 img {
   border: thin solid #eee;
+}
+
+li {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0;
 }
 
 p {
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 0;
 }
 
-h2 {
+table, tr, td {
+  border-width: 1px solid;
+  border-color: black;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 ul {
@@ -35,6 +50,7 @@ ul {
 
 .center {
   text-align: center;
+  margin: auto;
 }
 
 .box {
@@ -60,21 +76,23 @@ ul {
   width: 75%;
 }
 
-.text_cap {
-  background-color: inherit;
+.bodySpace1 {
+  padding-top: 1%;
 }
-.text_cap_header {
+.bodySpace2 {
+  padding-top: 2%;
+}
+.bodySpace5 {
   padding-top: 5%;
-}
-.text_cap_footer {
-  padding-bottom: 5%;
 }
 
 .topNavName {
   float: left;
   display: inline;
+  margin: 0 0.2%;
   padding: 0.5%;
-  text-align: center;
+  height: 20px;
+  border-width: 0px;
 }
 
 .topNavLinks {
@@ -85,10 +103,11 @@ ul {
   text-align: center;
   text-decoration: none;
   color: rgb(0, 0, 0);
-  border-radius: 25px;
+  transition: 0.3s;
 }
 .topNavLinks:hover {
   background-color: #eee;
+  border-radius: 25px;
 }
 .topNavLinks:active {
   background-color: rgb(237, 125, 49);
@@ -116,7 +135,7 @@ ul {
   margin: auto;
   border: thin solid #eee;
   display: flex;
-  width: 60%;
+  width: 70%;
   min-height: 900px;
 }
 .pdf_download {
@@ -128,6 +147,7 @@ ul {
   transition: 0.3s;
   border: thin solid #aaa;
   border-radius: 5px;
+  margin: auto;
 }
 .pdf_download:hover {
   border-radius: 10px;
@@ -144,12 +164,14 @@ ul {
   padding: 1%;
   max-width: 750px;
   display: flex;
+  border-radius: 25px;
 }
 .card_image {
   width: 15vw;
   -o-object-fit: contain;
      object-fit: contain;
   align-self: flex-start;
+  border-radius: 10px;
 }
 .card:hover {
   border: thin solid #ccc;
